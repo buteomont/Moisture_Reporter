@@ -18,7 +18,7 @@
  *  
  * Some configuration parameters can be set via MQTT topic $TOPICROOT/command.
  */
-#define VERSION "20.11.13.1"  //remember to update this after every change! YY.MM.DD.REV
+#define VERSION "20.12.26.1"  //remember to update this after every change! YY.MM.DD.REV
 
 #include <PubSubClient.h> 
 #include <ESP8266WiFi.h>
