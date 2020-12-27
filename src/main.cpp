@@ -401,6 +401,9 @@ void showSettings()
  */
 void reconnect() 
   {
+  if (!settingsAreValid)
+    return;
+    
   mqttClient.loop(); //This has to happen every so often or we can't receive messages
   // Loop until we're reconnected
   while (!mqttClient.connected()) 
